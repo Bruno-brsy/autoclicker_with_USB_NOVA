@@ -1,0 +1,64 @@
+# Claim diamonts
+IMPORT autocliker4tower_game_reset_position.txt
+
+# move to the bottom
+LOOP_BEGIN 50
+MOVE 0 20
+LOOP_END
+MOVE 0 -10
+
+# move on the def tab
+LOOP_BEGIN 60
+MOVE 10 0
+LOOP_END
+
+DELAY 2000
+CLICK 0
+
+
+IMPORT autocliker4tower_game_reset_position.txt
+# move on the Helth / Health Regen / Defense% arrow
+LOOP_BEGIN 26
+MOVE 0 20
+LOOP_END
+
+# Move on Health
+MOVE 100 0
+# Click on health
+DELAY 200
+CLICK 0
+DELAY 200
+
+
+IMPORT autocliker4tower_game_reset_position.txt
+# move on the Helth / Health Regen / Defense% arrow
+LOOP_BEGIN 26
+MOVE 0 20
+LOOP_END
+
+# Move on Health regen
+LOOP_BEGIN 2
+MOVE 100 0
+LOOP_END
+# Click on health regen
+DELAY 200
+CLICK 0
+DELAY 200
+
+
+IMPORT autocliker4tower_game_reset_position.txt
+# move on the Helth / Health Regen / Defense% arrow
+LOOP_BEGIN 26
+MOVE 0 20
+LOOP_END
+
+
+# Move on Defense%
+LOOP_BEGIN 3
+MOVE 100 0
+LOOP_END
+# Click on Defense%
+DELAY 200
+CLICK 0
+DELAY 200
+

@@ -1,0 +1,8 @@
+# Claim diamonts
+IMPORT autocliker4tower_game_reset_position.txt
+
+LOOP_BEGIN 32
+MOVE 16 10
+LOOP_END
+CLICK 0
+
