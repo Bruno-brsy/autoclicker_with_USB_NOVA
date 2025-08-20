@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/SpacehuhnTech/USBNova/main/schema.json",
+  "enable_msc": false,
+  "enable_led": true,
+  "enable_hid": true,
+  "vid": "16D0",
+  "pid": "11A4",
+  "version": "0100",
+  "serial": "1337",
+  "manufacturer": "SpacehuhnTech",
+  "product": "USB Nova",
+  "default_layout": "US",
+  "default_delay": 5,
+  "main_script": "autocliker4tower_game_main_script.txt",
+  "attack_color": [
+    128,
+    0,
+    0,
+    0
+  ],
+  "setup_color": [
+    0,
+    0,
+    20,
+    0
+  ],
+  "idle_color": [
+    0,
+    30,
+    0,
+    0
+  ],
+  "disable_capslock": true,
+  "run_on_indicator": false,
+  "initial_delay": 1000
+}
