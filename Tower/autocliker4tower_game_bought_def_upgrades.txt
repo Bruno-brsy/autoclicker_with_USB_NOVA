@@ -1,4 +1,3 @@
-# Claim diamonts
 IMPORT autocliker4tower_game_reset_position.txt
 
 # move to the bottom
@@ -14,49 +13,42 @@ LOOP_END
 
 DELAY 2000
 CLICK 0
+DELAY 200
 
 
 IMPORT autocliker4tower_game_reset_position.txt
-# move on the Helth / Health Regen / Defense% arrow
+# move on the Health / Health Regen / Defense% arrow
 LOOP_BEGIN 26
 MOVE 0 20
 LOOP_END
+MOVE 0 20
 
 # Move on Health
-MOVE 100 0
+LOOP_BEGIN 11
+MOVE 20 0
+LOOP_END
 # Click on health
 DELAY 200
 CLICK 0
 DELAY 200
 
-
-IMPORT autocliker4tower_game_reset_position.txt
-# move on the Helth / Health Regen / Defense% arrow
-LOOP_BEGIN 26
-MOVE 0 20
-LOOP_END
-
 # Move on Health regen
-LOOP_BEGIN 2
-MOVE 100 0
+LOOP_BEGIN 10
+MOVE 20 0
 LOOP_END
 # Click on health regen
 DELAY 200
 CLICK 0
 DELAY 200
 
-
-IMPORT autocliker4tower_game_reset_position.txt
-# move on the Helth / Health Regen / Defense% arrow
-LOOP_BEGIN 26
-MOVE 0 20
-LOOP_END
-
+IMPORT autocliker4tower_game_click_on_retry_button.txt
 
 # Move on Defense%
-LOOP_BEGIN 3
-MOVE 100 0
+LOOP_BEGIN 10
+MOVE 20 0
 LOOP_END
+MOVE 0 -30  # avoid to click on the home button
+
 # Click on Defense%
 DELAY 200
 CLICK 0
