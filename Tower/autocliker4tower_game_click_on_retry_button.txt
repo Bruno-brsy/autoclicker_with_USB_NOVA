@@ -1,0 +1,9 @@
+# go on the retry button from the health regen position
+LOOP_BEGIN 10
+MOVE 20 0
+LOOP_END
+
+DELAY 200
+CLICK 0
+DELAY 200
+

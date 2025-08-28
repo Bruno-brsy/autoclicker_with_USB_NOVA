@@ -11,7 +11,7 @@
   "product": "USB Nova",
   "default_layout": "US",
   "default_delay": 5,
-  "main_script": "autocliker4tower_game_main_script.txt",
+  "main_script": "main_script.txt",
   "attack_color": [
     128,
     0,

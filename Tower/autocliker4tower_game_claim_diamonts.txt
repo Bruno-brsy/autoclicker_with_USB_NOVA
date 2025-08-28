@@ -1,8 +1,31 @@
 # Claim diamonts
 IMPORT autocliker4tower_game_reset_position.txt
 
-LOOP_BEGIN 32
+# claim the five diamonts
+LOOP_BEGIN 31
 MOVE 16 10
 LOOP_END
+DELAY 200
 CLICK 0
+DELAY 200
+
+# claim the floating diamonts
+# go up from the five diamonts position
+LOOP_BEGIN 10
+MOVE 0 -10
+LOOP_END
+
+# go in the middle of the screen (based from the five diamonts)
+LOOP_BEGIN 25
+MOVE 10 0
+LOOP_END
+
+# click multiple times, hoping to get the floating
+DELAY 200
+CLICK 0
+DELAY 200
+MOVE 0 50
+DELAY 200
+CLICK 0
+DELAY 200
 
